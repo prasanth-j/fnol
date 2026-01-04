@@ -1,0 +1,51 @@
+/* Enterprise Dashboard Styles */
+
+.dashboard-container {
+  min-height: 100vh;
+  background: #f8fafc;
+}
+
+.dashboard-container .navbar {
+  background: white !important;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.dashboard-container .table {
+  font-size: 14px;
+}
+
+.dashboard-container .table thead th {
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 0.5px;
+  color: #6b7280;
+  border-bottom: 2px solid #e5e7eb;
+}
+
+.dashboard-container .table tbody tr {
+  transition: background-color 0.2s ease;
+}
+
+.dashboard-container .table tbody tr:hover {
+  background-color: #f9fafb;
+}
+
+.dashboard-container .table td {
+  vertical-align: middle;
+  padding: 16px;
+  border-color: #f3f4f6;
+}
+
+.dashboard-container .card {
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.dashboard-container .badge {
+  font-weight: 500;
+  padding: 6px 12px;
+  border-radius: 6px;
+}
+
