@@ -22,7 +22,8 @@ build/
 
 # Data files
 data/
-*.json
+# Ignore JSON files in data directory, but keep package.json and package-lock.json
+data/*.json
 
 # Environment variables
 .env
